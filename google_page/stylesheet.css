@@ -7,7 +7,15 @@ body {
 }
 
 div {
-	display: block;
+	display: inline-block;
+}
+
+input {
+	margin: 0px 0px 0px 140px; /*top right bottom left*/
+	height: 3em;
+	width: 100em;
+	vertical-align: center;
+	clear: both;
 }
 
 #topsearch {
@@ -40,16 +48,20 @@ div {
 }
 
 #logo {
-	display:inline-block;
+	display:block;
 	height: 37px;
     width: 95px;
-    margin-right: 20px;
+    padding: 1em;
 }
 
 .sidebar {
 	background-color: black;
+	height: 70px;
+	width: 50%;
 }
 
 .main {
-	background-color: purple;
+	background-color: orange;
+	height: 70px;
+	width: 50%;
 }
