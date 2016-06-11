@@ -1,0 +1,55 @@
+body {
+	font-family: arial,sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+div {
+	display: block;
+}
+
+#topsearch {
+	height: 59px;
+	width:100%;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+
+#options {
+	background-color: red;
+	height: 70px;
+	width: 100%;
+}
+
+#main {
+	background-color: green;
+	height: 60em;
+	width: 100%;
+	position: relative;
+}
+
+#footer {
+	height: 6em;
+	width: 100%;
+	background-color: #f1f1f1;
+	border-top: 1px solid #666;
+	border-color: #e5e5e5;
+}
+
+#logo {
+	display:inline-block;
+	height: 37px;
+    width: 95px;
+    margin-right: 20px;
+}
+
+.sidebar {
+	background-color: black;
+}
+
+.main {
+	background-color: purple;
+}
